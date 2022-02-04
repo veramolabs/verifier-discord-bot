@@ -1,0 +1,28 @@
+{
+  "name": "verifier-discord-bot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "license": "Apache-2.0",
+  "author": "Simonas Karuzas <simonas.karuzas@mesh.xyz>",
+  "contributors": [
+    "Mircea Nistor <mircea.nistor@mesh.xyz>"
+  ],
+  "scripts": {
+    "start": "ts-node src/bot"
+  },
+  "dependencies": {
+    "@veramo/core": "^3.1.0",
+    "@veramo/credential-w3c": "^3.1.0",
+    "@veramo/did-jwt": "^3.1.0",
+    "@veramo/did-resolver": "^3.1.0",
+    "@veramo/message-handler": "^3.1.0",
+    "@veramo/url-handler": "^3.1.0",
+    "did-resolver": "^3.1.5",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "ethr-did-resolver": "^5.0.4",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5",
+    "web-did-resolver": "^2.0.12"
+  }
+}
